@@ -12,7 +12,6 @@ import CheckboxRadio from '@/components/Documention/Components/CheckboxRadio'
 import CheckboxRadioEditable from '@/components/Documention/Components/CheckboxRadioEditable'
 import Select from '@/components/Documention/Components/Select'
 import SelectEditable from '@/components/Documention/Components/SelectEditable'
-import TreeView from '@/components/Documention/Components/TreeView'
 
 Vue.use(Router)
 
@@ -66,10 +65,6 @@ export default new Router({
         {
           path: 'select_editable',
           component: SelectEditable
-        },
-        {
-          path: 'tree_view',
-          component: TreeView
         }
       ]
     }
