@@ -1,0 +1,14 @@
+dist
+dist/*
+dist/.DS_Store
+src/.DS_Store
+src/assets/.DS_Store
+src/components/.DS_Store
+.DS_Store
+build
+build/*
+config
+config/*
+node_modules
+node_modules/*
+
